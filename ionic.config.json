@@ -1,0 +1,7 @@
+{
+  "name": "ion-app-capacitor-plugins",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
