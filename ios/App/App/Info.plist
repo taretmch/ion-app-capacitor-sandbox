@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>ion-app-capacitor-plugins</string>
+	<string>ion-app-capacitor-plugins</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,5 +45,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
 </dict>
 </plist>
