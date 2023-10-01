@@ -8,8 +8,8 @@ import { GeolocationPage } from './geolocation.page';
   imports: [
     CommonModule,
     IonicModule,
-    GeolocationPageRoutingModule
-  ],
-  declarations: [GeolocationPage]
+    GeolocationPageRoutingModule,
+    GeolocationPage
+  ]
 })
 export class GeolocationPageModule {}

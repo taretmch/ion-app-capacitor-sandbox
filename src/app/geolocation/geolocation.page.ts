@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { Geolocation, Position } from '@capacitor/geolocation';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-geolocation',
   templateUrl: 'geolocation.page.html',
   styleUrls: ['geolocation.page.scss'],
+  standalone: true,
+  imports: [IonicModule],
 })
 export class GeolocationPage {
 
