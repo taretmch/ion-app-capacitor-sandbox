@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>ion-app-capacitor-plugins</string>
 	<key>CFBundleExecutable</key>
@@ -12,6 +10,10 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ja</string>
+	</array>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
@@ -22,6 +24,16 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、カメラを使用します</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、フォトライブラリに写真を保存します</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>サンプルアプリケーションの学習に使うため、フォトライブラリにアクセスします</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -45,9 +57,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>サンプルアプリケーションの学習に使うため、位置情報を取得します</string>
 </dict>
 </plist>
