@@ -4,10 +4,12 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">camera</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content padding>
+  <!-- Take photo button -->
+  <ion-button (click)="takePicture()">Take Photo</ion-button>
+
+  <!-- Show image after photo is taken -->
+  @if (imgUrl) {
+    <ion-img [src]="imgUrl"></ion-img>
+  }
 </ion-content>
