@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'camera',
     loadChildren: () => import('./camera/camera.module').then( m => m.CameraPageModule)
   },
+  {
+    path: 'browser',
+    loadChildren: () => import('./browser/browser.module').then( m => m.BrowserPageModule)
+  },
 ];
 
 @NgModule({
